@@ -1,0 +1,11 @@
+.slider__button {
+    background: #386641;
+    color: #ffffff;
+    &:not(:disabled):hover,
+    &:not(:disabled):active,
+    :not(:disabled):visited {
+        background: transparent;
+        color: #386641 !important;
+        border-color: #386641 !important;
+    }
+}

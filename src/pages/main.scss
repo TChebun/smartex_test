@@ -1,0 +1,30 @@
+.main {
+    background: #cdd1c4;
+    margin: 1.5rem;
+
+    &__wrapper {
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border: 1px solid #386641;
+        background: #ffffff;
+    }
+
+    &__content {
+        padding: 0.5rem 0.75rem;
+    }
+
+    &__sider.ant-layout-sider {
+        background: #ffffff;
+    }
+
+    .header {
+        &__wrapper {
+            background: #cdd1c4;
+            font-size: 1.25rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+}
